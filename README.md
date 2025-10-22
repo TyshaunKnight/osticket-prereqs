@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="713" height="743" alt="Createvituralmachine" src="https://github.com/user-attachments/assets/1b2c7243-203d-470d-8d46-3631e022b289" />
 </p>
 <p>
-Create the Azure virtual machine and allocate CPU, memory, and disk before connecting.
+Create the Azure virtual machine and allocate 4 vCPU's. We will be using the Windows 10 OS interface.
 </p>
 <br />
 
@@ -37,7 +37,7 @@ Create the Azure virtual machine and allocate CPU, memory, and disk before conne
 <img width="704" height="638" alt="Screenshot 2025-09-25 at 9 30 01 PM" src="https://github.com/user-attachments/assets/da779a04-4434-4958-bd4f-3f58cd0a9ae6" />
 </p>
 <p>
-Use Remote Desktop Protocol (RDP) to connect to the Windows VM with admin credentials.
+Log in using Remote Desktop Protocol (RDP) to connect to the Windows.
 </p>
 <br />
 
@@ -45,15 +45,10 @@ Use Remote Desktop Protocol (RDP) to connect to the Windows VM with admin creden
 <img width="661" height="228" alt="Screenshot 2025-09-25 at 9 37 48 PM" src="https://github.com/user-attachments/assets/a224a09e-4b38-4144-8ef7-5b58bdbc5b5b" />
 </p>
 <p>
-Open Server Manager or Control Panel to install IIS and required Windows features.
-</p>
-<br />
-
-<p>
 <img width="426" height="464" alt="Screenshot 2025-09-25 at 9 39 33 PM" src="https://github.com/user-attachments/assets/c09d43fc-4b6c-4f06-b65a-a5ef6aedcaf2" />
 </p>
 <p>
-Enable CGI and IIS URL Rewrite, then restart IIS to apply feature changes.
+Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files." We will use the files in this folder to install osTicket and some of the dependencies.
 </p>
 <br />
 
